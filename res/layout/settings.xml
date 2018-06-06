@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:background="#272727">
+
+    <TextView
+        android:id="@+id/settings_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textColor="#fff"
+        android:gravity="right"
+        android:padding="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/textSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ustawienia"
+        android:textColor="#fff"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:paddingBottom="40dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSounds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:checked="true"
+        android:freezesText="false"
+        android:text="Dźwięki"
+        android:textColor="#fff" />
+
+    <CheckBox
+        android:id="@+id/checkBoxNight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tryb Nocny"
+        android:textColor="#fff"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
